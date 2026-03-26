@@ -1,0 +1,15 @@
+var x = 2;
+var y = 3;
+var z;
+
+z = x ^ y;
+print("2 elevado a 3:");
+print(z);
+
+if (x < y and x == 2) {
+    print("x menor que y e x igual a 2");
+}
+
+if (x == 5 or y == 3) {
+    print("y é igual a 3");
+}
