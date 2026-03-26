@@ -1,0 +1,2 @@
+// ERRO 1: usar variável sem declarar
+y = 10;

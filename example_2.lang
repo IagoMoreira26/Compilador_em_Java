@@ -1,0 +1,51 @@
+// Declaração de variáveis
+var a;
+var b;
+var soma;
+var diferenca;
+var produto;
+var potencia;
+
+// Entrada de dados
+print("Digite o primeiro numero:");
+input(a);
+print("Digite o segundo numero:");
+input(b);
+
+// Operações aritméticas
+soma = a + b;
+diferenca = a - b;
+produto = a * b;
+potencia = a ^ b;
+
+// Saída dos resultados
+print("Soma:");
+print(soma);
+print("Diferenca:");
+print(diferenca);
+print("Produto:");
+print(produto);
+print("Potencia:");
+print(potencia);
+
+// Estrutura condicional
+if (a < b) {
+    print("O primeiro numero e menor");
+}
+
+if (a == b) {
+    print("Os numeros sao iguais");
+}
+
+if (a > b) {
+    print("O primeiro numero e maior");
+}
+
+// Estrutura de repetição
+var contador;
+contador = 0;
+while (contador < 3) {
+    print("Contando:");
+    print(contador);
+    contador = contador + 1;
+}

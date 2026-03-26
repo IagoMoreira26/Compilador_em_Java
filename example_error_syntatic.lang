@@ -1,0 +1,5 @@
+// ERRO: falta ponto e vírgula e bloco mal formado
+var x = 5
+if x < 10 {
+    print(x)
+}
