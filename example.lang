@@ -1,15 +1,37 @@
-var x = 2;
-var y = 3;
-var z;
+var a;
+var b;
+var soma;
+var diferenca;
+var produto;
+var potencia;
 
-z = x ^ y;
-print("2 elevado a 3:");
-print(z);
+print("Digite o primeiro numero:");
+input(a);
+print("Digite o segundo numero:");
+input(b);
 
-if (x < y and x == 2) {
-    print("x menor que y e x igual a 2");
+soma = a + b;
+diferenca = a - b;
+produto = a * b;
+potencia = a ^ b;
+
+print("Soma:");
+print(soma);
+print("Diferenca:");
+print(diferenca);
+print("Produto:");
+print(produto);
+print("Potencia:");
+print(potencia);
+
+if (a < b) {
+    print("O primeiro numero é menor");
 }
 
-if (x == 5 or y == 3) {
-    print("y é igual a 3");
+if (a == b) {
+    print("Os numeros são iguais");
+}
+
+if (a > b) {
+    print("O primeiro numero é maior");
 }
